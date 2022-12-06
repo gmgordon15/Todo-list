@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 50%;
+    align-items: center;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: #DDD8B8;
+}
+
+
+
+#title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #84A9C0;
+}
+
+.search-div{
+    
+}
+
+.todo-input{
+    height: 2rem;
+    width: 24rem;
+    border-radius: 5px;
+}
+
+.submit-button{
+    height: 2rem;
+    width: 4rem;
+}
+
+.tasks-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    height: 50%;
+    width: 64%;
+}
+
+.todo-Div{
+    display: flex;
+    background-color:transparent;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: #B3CBB9;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+.button-div{
+    height: 100%;
+    width: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.completed{
+    text-decoration: line-through;
+    transition: ease-in 5s;
+}
+
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    transition: ease 1s;
+    opacity: 0;
+    
+}
+
+.todolist{
+    display: flex;
+    flex-direction: column;
+}
